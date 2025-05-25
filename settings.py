@@ -16,10 +16,9 @@ class Settings():
         self.initialize_dynamic_settings()
 
     def initialize_dynamic_settings(self):
-        """Инициализирует настройки, изменяющиеся в ходе игры."""
-        self.ship_speed_factor = 1.5
-        self.bullet_speed_factor = 3
-        self.alien_speed_factor = 1
+        self.ship_speed_factor = 0.75
+        self.bullet_speed_factor = 1
+        self.alien_speed_factor = 0.5
         self.alien_points = 50
         # fleet_direction = 1 обозначает движение вправо; а -1 - влево.
         self.fleet_direction = 1
